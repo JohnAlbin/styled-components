@@ -5,6 +5,7 @@ import flatten from './utils/flatten'
 import stringifyRules from './utils/stringifyRules'
 import generateAlphabeticName from './utils/generateAlphabeticName'
 import css from './constructors/css'
+import mediaQuery from './constructors/mediaQuery'
 import ServerStyleSheet from './models/ServerStyleSheet'
 import StyleSheetManager from './models/StyleSheetManager'
 
@@ -36,6 +37,7 @@ const styled = _styled(StyledComponent, constructWithOptions)
 export default styled
 export {
   css,
+  mediaQuery,
   keyframes,
   injectGlobal,
   ThemeProvider,

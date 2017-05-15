@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file. If a contri
 
 ## [Upcoming Major Release]
 
+- Add `mediaQuery` helper method to manage media queries, thanks to [@JohnAlbin](https://github.com/JohnAlbin) (see [#791](https://github.com/styled-components/styled-components/issues/791))
 - Update css-to-react-native - you'll now need to add units to your React Native styles (see [css-to-react-native](https://github.com/styled-components/css-to-react-native/issues/20), [code mod](https://github.com/styled-components/styled-components-native-code-mod))
 - Update stylis to latest version (see [#496](https://github.com/styled-components/styled-components/pull/496)).
 - Added per-component class names (see [#227](https://github.com/styled-components/styled-components/pull/227)).
@@ -33,7 +34,6 @@ All notable changes to this project will be documented in this file. If a contri
 ## [v1.4.6] - 2017-05-02
 
 ### Added
-
 - Support for jsdom and other browsers that do not implement [ownerNode](https://developer.mozilla.org/en-US/docs/Web/API/StyleSheet/ownerNode), thanks to [@zvictor](https://github.com/zvictor)
 
 ### Changed

@@ -7,6 +7,7 @@ import _StyledNativeComponent from '../models/StyledNativeComponent'
 import _constructWithOptions from '../constructors/constructWithOptions'
 
 import css from '../constructors/css'
+import mediaQuery from '../constructors/mediaQuery'
 import ThemeProvider from '../models/ThemeProvider'
 import withTheme from '../hoc/withTheme'
 
@@ -36,5 +37,5 @@ aliases.split(/\s+/m).forEach(alias => Object.defineProperty(styled, alias, {
   },
 }))
 
-export { css, ThemeProvider, withTheme }
+export { css, mediaQuery, ThemeProvider, withTheme }
 export default styled
